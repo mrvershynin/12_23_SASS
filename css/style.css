@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Text color for menu */
+/* Radius for menu buttons mobile version */
+/* Size buttons for mobile version */
+/* Parameters for box-shadow */
+/* Horizontal Length */
+/* Vertical Length */
+/* Blur Radius */
+/* Spread Radius */
+body {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navbar {
+  background: #e8f2f9;
+  padding: 5px 15px 5px 15px;
+  color: #666666;
+}
+
+.container-fluid > .nav > li > a {
+  color: #666666;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0px 5px 0px 5px;
+}
+.container-fluid > .nav > li > a:hover {
+  background-color: #504f51;
+  color: #fff;
+}
+
+.navbar-brand {
+  padding: 5px;
+}
+
+.top-brand {
+  position: absolute;
+  left: 45%;
+}
+
+.main > li > a {
+  color: #4f4e50;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background: #e8f2f9;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.main > li > a:hover {
+  background-color: #504f51;
+  color: #fff;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.main > li > a > span {
+  color: #fc635e;
+}
+.main > li > a > span:hover {
+  color: #fff;
+}
+
+.mob-menu {
+  background: #e8f2f9;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.mob-menu > .nav-pills > li > a {
+  color: #666666;
+  background: #fff;
+  width: 320px;
+  font-size: 14px;
+  border-radius: 20px;
+  margin: 30px auto;
+  -webkit-box-shadow: 5px 5px 20px -7px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 5px 5px 20px -7px rgba(0, 0, 0, 0.45);
+  box-shadow: 5px 5px 20px -7px rgba(0, 0, 0, 0.45);
+}
+
+.nav > li > a {
+  padding: 15px 0;
+}
+.nav > li > a:hover {
+  color: none;
+}
+
+.center-icon {
+  text-align: center;
+  padding: 35px 0 5px 0;
+}
